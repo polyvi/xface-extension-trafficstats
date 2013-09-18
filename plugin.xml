@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.polyvi.xface.extension.trafficstats"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        version="1.0.0">
+
+    <name>TrafficStats</name>
+    <author>PolyVi Inc.</author>
+    <keywords>cordova, xface, trafficStats</keywords>
+    <license>Apache 2.0</license>
+    <description>xFace trafficstats extension</description>
+
+    <js-module src="www/TrafficStats.js" name="TrafficStats">
+        <clobbers target="window.xFace.TrafficStats" />
+    </js-module>
+
+    <engines>
+      <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="TrafficStats">
+                <param name="android-package" value="com.polyvi.xface.extension.trafficstats.XTrafficStatsExt"/>
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        </config-file>
+
+        <source-file src="src/android/XTrafficStats.java" target-dir="src/com/polyvi/xface/extension/trafficstats" />
+        <source-file src="src/android/XTrafficStatsBase.java" target-dir="src/com/polyvi/xface/extension/trafficstats" />
+        <source-file src="src/android/XTrafficStatsExt.java" target-dir="src/com/polyvi/xface/extension/trafficstats" />
+    </platform>
+
+</plugin>
