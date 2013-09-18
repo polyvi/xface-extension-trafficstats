@@ -1,0 +1,5 @@
+REPOSITORY = 'git@git.polyvi.com:xface-extension-trafficstats.git'
+REVIEWBOARD_URL = 'http://review.polyvi.com/reviews/'
+GUESS_FIELDS = 'true'
+TARGET_GROUPS = 'xFaceApolloCCGroup'
+OPEN_BROWSER = 'true'
