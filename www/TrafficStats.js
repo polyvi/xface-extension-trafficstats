@@ -1,3 +1,4 @@
+
 /**
  * TrafficStats模块提供流量统计功能
  * @module trafficStats
@@ -55,4 +56,3 @@
   };
 
   module.exports = new TrafficStats();
-
