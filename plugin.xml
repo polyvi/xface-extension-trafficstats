@@ -8,7 +8,7 @@
     <name>TrafficStats</name>
     <author>PolyVi Inc.</author>
     <keywords>cordova, xface, trafficStats</keywords>
-    <license>Apache 2.0</license>
+    <license>GPLv3</license>
     <description>xFace trafficstats extension</description>
 
     <js-module src="www/TrafficStats.js" name="TrafficStats">
