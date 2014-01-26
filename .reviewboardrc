@@ -1,4 +1,4 @@
-REPOSITORY = 'git@git.polyvi.com:xface-extension-trafficstats.git'
+REPOSITORY = 'git@gitlab.polyvi.com:xface/xface-extension-trafficstats.git'
 REVIEWBOARD_URL = 'http://review.polyvi.com/reviews/'
 GUESS_FIELDS = 'true'
 TARGET_GROUPS = 'xFaceApolloCCGroup'
