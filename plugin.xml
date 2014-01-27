@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="com.polyvi.xface.extension.trafficstats"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        version="1.0.1-dev">
+        version="1.0.1">
 
     <name>TrafficStats</name>
     <author>PolyVi Inc.</author>

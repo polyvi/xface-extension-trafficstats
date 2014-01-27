@@ -23,3 +23,8 @@
 # Release Notes
 ### 1.0.0 Tue Jan 07 2014 16:09:15 GMT+0800 (CST)
  *  update plugin license
+### 1.0.1 Mon Jan 27 2014 15:56:43 GMT+0800 (CST)
+ *  batch modify .reviewboard
+ *  #1: Filtered out unsupported platforms.
+ *  [android]Licensed GPLV3 to trafficstats plugin
+ *  Incremented plugin version on dev branch to 1.0.1-dev
